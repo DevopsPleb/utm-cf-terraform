@@ -5,6 +5,7 @@ module "cloudformation-stack" {
   source  = "cloudposse/cloudformation-stack/aws"
   version = "0.7.1"
   
+  region            = "us-east-2"
   enabled           = true
   namespace         = "sophos"
   stage             = "test"

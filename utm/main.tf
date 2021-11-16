@@ -1,3 +1,6 @@
+provider "aws" {
+  region      = "us-east-2"
+}
 module "cloudformation-stack" {
   source  = "cloudposse/cloudformation-stack/aws"
   version = "0.7.1"

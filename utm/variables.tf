@@ -1,3 +1,6 @@
+variable "region" {
+    default             = "us-east-2"
+}
 variable "license_type" {
     description         = "Available options: byol or hourly"
 }
